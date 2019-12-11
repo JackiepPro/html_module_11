@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Module 11 (Gulp, Sass)</title>
+    <!-- Сюда будет всталена ссылка на файл стилей -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endinject -->
+  </head>
+
+  <body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <header class="header">
+                    <p class="logo"><a class="logo__link" href="#" target="_blank">MoGo</a></p>
+                       <nav class="navigation">
+                           <ul class="menu">
+                               <li><a href="#" target="_blank">Home</a></li>
+                               <li><a href="#" target="_blank">About Us</a></li>
+                               <li><a href="#" target="_blank">Page</a></li>
+                               <li><a href="#" target="_blank">Blog</a></li>
+                               <li><a href="#" target="_blank">Contact Us</a></li>
+                               <!-- <li><a href="#" target="_blank">
+                                   <svg class="basket">
+                                       <use href="./images/sprite.svg#basket"></use>
+                                   </svg>
+                                </a></li>
+                               <li><a href="#" target="_blank">
+                                    <svg class="basket">
+                                        <use href="./images/sprite.svg#search"></use>
+                                    </svg>
+                                </a></li> -->
+                           </ul>
+                       </nav>
+                </header>
+                <div class="col-lg-12 box-text">
+                   <div class="col-lg-9 block-main">
+                        <h2 class="main-heading">Creative Template<span class="main-heading-lg">Welcome to MoGo</span></h2>
+                        <a class="intro-btn" href="#">Learn more</a>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="intro">
+            <div class="container">
+                <div class="box-text">
+                    <h2 class="intro-heading underline">We work with <span class="intro-heading-sm">Amazing Services</span></h2>
+                </div>
+              <div class="flex-container features">
+                <div class="item flex-box one-decor features__icon--one">
+                    <div class="flex-box flex-col">
+                        <p class="heading-sm-text">Photography</p>
+                        <p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>  
+                <div class="item flex-box two-decor">
+                    <div class="flex-box flex-col">
+                        <p class="heading-sm-text">Web Design</p>
+                        <p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>  
+                <div class="item flex-box three-decor">
+                    <div class="flex-box flex-col">
+                        <p class="heading-sm-text">Creativity</p>
+                        <p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>  
+                <div class="item flex-box four-decor">
+                    <div class="flex-box flex-col">
+                        <p class="heading-sm-text">seo</p>
+                        <p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>  
+                <div class="item flex-box five-decor">
+                    <div class="flex-box flex-col">
+                        <p class="heading-sm-text">Css/Html span</p>
+                        <p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>  
+                <div class="item flex-box six-decor">
+                    <div class="flex-box flex-col">
+                        <p class="heading-sm-text">digital</p>
+                        <p class="sm-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>  
+              </div>
+            </div>
+        </section>
+    
+    <section class="content container">
+            <div class="block">
+                <div class="box-text">
+                    <h2 class="intro-heading underline">Who we are  <span class="intro-heading-sm ">Meet our team</span></h2>
+                    <p class="text-describe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="box-flex">
+                    <div>
+                        <div class="box-sm-goods">
+                            <picture>
+                                <img class="img" src="./images/Layer.png" alt="default">
+                                <source srcset="images/Layer@3x.png 3x">  
+                                <source srcset="images/Layer@2x.png 2x">                                                                
+                            </picture>
+                            
+                            <div class="overlay2">
+                                <div class="icons2">
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/fb.svg" alt="default" title="facebook"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/twitter-1.svg" alt="default"  title="twitter"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/pinterest.svg" alt="default" title="pinterest"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/instagram.svg" alt="default"  title="instagram"></a>
+                                </div>      
+                            </div> 
+                        </div>
+                        <div class="names">
+                            <p>Matthew Dix<span class="names__span">Graphic Design</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="box-sm-goods">
+                            <picture>
+                                <img class="img" src="./images/man2Layer.png" alt="default">
+                                <source srcset="images/man2Layer@3x.png 3x">  
+                                <source srcset="images/man2Layer@2x.png 2x">                                                                
+                            </picture>
+                            <div class="overlay2">
+                                <div class="icons2">
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/fb.svg" alt="default" title="facebook"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/twitter-1.svg" alt="default"  title="twitter"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/pinterest.svg" alt="default" title="pinterest"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/instagram.svg" alt="default"  title="instagram"></a>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="names">
+                            <p>Christopher Campbell<span class="names__span">Branding/UX design</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="box-sm-goods">
+                            <picture>
+                                <img class="img" src="./images/man3Layer.png" alt="default">
+                                <source srcset="images/man3Layer@3x.png 3x">  
+                                <source srcset="imagesman3Layer@2x.png 2x">                                                                
+                            </picture>
+                            <div class="overlay2">
+                                <div class="icons2">
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/fb.svg" alt="default" title="facebook"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/twitter-1.svg" alt="default"  title="twitter"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/pinterest.svg" alt="default" title="pinterest"></a>
+                                    <a class="button-overlay" href="#"><img class="icons" src="./images/instagram.svg" alt="default"  title="instagram"></a>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="names">
+                            <p>Michael Fertig <span class="names__span">Developer</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <footer class="footer">
+        <div class="container box-flex border-footer">
+            <p class="footer__p">© 2016 MoGo free PSD template by  <a class="footer__a" href="#" target="_blank">Laaqiq</a></p>
+            <form class="flex">
+                <input class="input-email" type="text" name="answer" placeholder="Your Email...">
+                <button class="footer-btn" type="submit" value="Subscribe">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+   
+   
+    <!-- Сюда будет всталена ссылка на файл скриптов -->
+    <!-- inject:js -->
+    <!-- endinject -->
+  </body>
+</html>

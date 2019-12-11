@@ -2,10 +2,56 @@
     margin-top: 46px;
 }
 
-
 .text-describe {
     font-weight: 400;
     line-height: 24px;
     color: $light-grey;
     margin-top: 46px;
+    font-family: 'Roboto';
+}
+
+.main-heading, .main-heading-lg,
+.intro-btn, .logo__link:hover, .logo__link,
+.intro-btn:hover,
+.footer-btn   {
+    color: $white;
+}
+
+.names__span {
+    font-family: 'Roboto-LightItalic';
+    text-transform: capitalize;
+}
+
+.intro-btn,
+.names p:first-child  {
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.intro-btn:hover{
+    text-decoration: none;
+}
+
+.names__span, 
+.sm-text,
+.text-describe {
+    font-weight: 400;
+    line-height: 24px;
+    color: $light-grey;
+}
+
+.main-heading-lg, .intro-heading-sm,
+.intro-btn,
+.names p:first-child,
+.heading-sm-text,
+.intro-btn {
+    text-transform: uppercase;
+}
+
+.main-heading, .intro-heading  {
+    font-family: "Kaushan Script", sans-serif;
+}
+
+.main-heading-lg, .intro-heading-sm {
+    font-family: "Montserrat Bold", sans-serif;
 }

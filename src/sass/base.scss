@@ -48,63 +48,12 @@ body {
 }
 
 /* coomon style */
-.main-heading-lg, .intro-heading-sm,
-.intro-btn,
-.names p:first-child,
-.heading-sm-text {
-    text-transform: uppercase;
-}
-
-.main-heading, .intro-heading  {
-    font-family: "Kaushan Script", sans-serif;
-}
-
-.main-heading-lg, .intro-heading-sm {
-    font-family: "Montserrat Bold", sans-serif;
-}
-
-.names__span,
-.main-heading-lg, .intro-heading-sm {
+.names__span, .intro-heading-sm {
     display: block;
-}
-
-.main-heading, .main-heading-lg,
-.intro-btn, .logo__link:hover, .logo__link,
-.intro-btn:hover,
-.footer-btn   {
-    color: #fff;
-}
-
-.names__span {
-    font-family: 'Roboto-LightItalic';
-    text-transform: capitalize;
-}
-
-.intro-btn,
-.names p:first-child  {
-    font-family: 'Montserrat';
-    font-size: 14px;
-}
-
-.intro-btn:hover{
-    text-decoration: none;
 }
 
 .underline, .box-sm-goods {
     position: relative;
-}
-
-.sm-text,
-.text-describe {
-    @include font-settings(15px, "Roboto", 11px);
-}
-
-.names__span, 
-.sm-text,
-.text-describe {
-    font-weight: 400;
-    line-height: 24px;
-    color: #999999;
 }
 
 

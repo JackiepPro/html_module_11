@@ -15,8 +15,6 @@
     }
 }
 
-
-
 .box-goods {
     margin-top: 92px; 
     li {
@@ -44,16 +42,18 @@
         background-color: #f38181;
         border: 1px solid #f38181;   
     }
-}
 
-svg {
-    width: 26px;
-    height: 23px;
-    /* fill: #f38181; */
-    &:hover {
-        fill: $white;
+    .icons {
+        width: 26px;
+        height: 23px;
+        fill: #f38181;
+        &:hover {
+            fill: $white;
+        }
     }
 }
+
+
 
 
 .box-sm-goods {

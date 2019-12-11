@@ -1,0 +1,54 @@
+/* start header */
+
+.header {
+    padding-bottom: 18px;
+    padding-top: 18px;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    color: $white;
+    .logo__link {
+        text-decoration: none;
+        @include font-settings(30px, "Montserrat", 11px);
+        font-weight: 800;
+        color: $white;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.navigation {
+    line-height: 3;
+    float: right;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: right; 
+    li {
+        display: inline-block;
+        padding: 0 34px 0 0;
+        &:last-child {
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            @include font-settings(14px, "Montserrat", 11px);
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $white;
+
+            &:hover {
+                color: $yellow;
+                border-bottom: 3px solid $yellow;
+                padding-bottom: 12px;
+            }
+        }
+    }
+}
+
+/* end header */

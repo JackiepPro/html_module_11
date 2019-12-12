@@ -51,4 +51,14 @@
     }
 }
 
+
+.basket {
+    width: 15px;
+    fill: #fff;
+    height: 15px;
+    &:hover {
+        fill: red;
+    }
+}
+
 /* end header */
